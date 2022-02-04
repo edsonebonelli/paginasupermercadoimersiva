@@ -1,0 +1,164 @@
+body {
+    display: inline;
+    width: 940px;
+    background: yellowgreen;
+    margin: 10px 10px 10px;
+}
+
+.titulo-principal {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    color: black;
+}
+
+.titulo-principal2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    color: black;
+    margin-top: 25px;
+}
+
+.titulo-principal3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    color: black;
+    margin-top: 70px;
+}
+
+.titulo-principal4 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    color: black;
+    margin-top: 20px;
+}
+
+.caixaprincipal {
+    text-align: center;
+}
+
+.caixacentral {
+    background: yellowgreen;
+    position: relative;
+    padding: 15px;
+}
+
+nav {
+    top: 10px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+li {
+    font-size: 20px;
+    color: black;
+    padding: 15px;
+    box-sizing: border-box;
+    background: white;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+li:hover {
+    background: yellow;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.sobre {
+    text-align: center;
+}
+
+.sobre p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.imagem02 {
+    width: 25%;
+    margin-top: 25px;
+    margin: 30px 15px 0;
+    padding: 30px;
+}
+
+.imagem03 {
+    width: 22%;
+    margin-top: 30px;
+    margin: 30px 15px 0;
+    padding: 30px;
+}
+
+.formas {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.chekbox {
+    margin: 20px 0px;
+}
+
+.enviar {
+    width: 20%;
+    padding: 15px 0;
+    background: green;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.enviar:hover {
+    background: green;
+    transform: scale(1.2);
+}
+
+.options {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+table {
+    display: inline-block;
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: yellowgreen;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid white;
+    padding: 8px 15px;
+}
+
+.mapa {
+    margin-top: 15px;
+}
+
+footer {
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.copyright {
+    font-size: 13px;
+}
